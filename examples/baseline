@@ -1,0 +1,76 @@
+{
+  "Hostname": "MY-PC",
+  "TimestampUtc": "2025-09-15T21:37:12Z",
+  "OS": {
+    "WindowsProductName": "Windows 11 Pro",
+    "WindowsVersion": "22H2",
+    "OsBuildNumber": "22631",
+    "OsArchitecture": "64-bit"
+  },
+  "CoreFileHashes": [
+    {
+      "Algorithm": "SHA256",
+      "Path": "C:\\Windows\\System32\\ntoskrnl.exe",
+      "Hash": "ABCD1234..."
+    },
+    {
+      "Algorithm": "SHA256",
+      "Path": "C:\\Windows\\System32\\winload.efi",
+      "Hash": "EFGH5678..."
+    }
+  ],
+  "InstalledPrograms": [
+    {
+      "DisplayName": "Microsoft Edge",
+      "DisplayVersion": "127.0.0.1",
+      "Publisher": "Microsoft Corporation",
+      "InstallDate": "20250101"
+    },
+    {
+      "DisplayName": "7-Zip 23.01",
+      "DisplayVersion": "23.01",
+      "Publisher": "Igor Pavlov",
+      "InstallDate": "20250210"
+    }
+  ],
+  "Certificates": {
+    "Cert:\\LocalMachine\\Root": [
+      {
+        "Subject": "CN=Microsoft Root Certificate Authority",
+        "Issuer": "CN=Microsoft Root Certificate Authority",
+        "Thumbprint": "A1B2C3...",
+        "NotBefore": "2020-01-01",
+        "NotAfter": "2030-01-01"
+      }
+    ]
+  },
+  "Drivers": [
+    {
+      "DeviceName": "Intel(R) Ethernet Controller",
+      "DriverVersion": "12.19.1.37",
+      "Manufacturer": "Intel",
+      "IsSigned": true
+    }
+  ],
+  "Services": [
+    {
+      "Name": "WinDefend",
+      "DisplayName": "Microsoft Defender Antivirus Service",
+      "State": "Running",
+      "StartMode": "Automatic"
+    }
+  ],
+  "BootTrust": {
+    "SecureBootEnabled": true,
+    "TpmInfoText": "TPM 2.0, Manufacturer ID: 1229346816",
+    "BitLocker": "Volume C: Fully Encrypted"
+  },
+  "UsersAndGroups": {
+    "LocalUsers": [
+      { "Name": "Verity", "Enabled": true, "LastLogon": "2025-09-14T22:01:00Z" }
+    ],
+    "Administrators": [
+      { "Name": "MY-PC\\Verity", "ObjectClass": "User" }
+    ]
+  }
+}
