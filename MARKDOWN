@@ -1,5 +1,7 @@
 # WIB Project – Windows Integrity Baseline
 
+Design Notes
+
 [![PowerShell](https://img.shields.io/badge/PowerShell-5%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
 
@@ -35,7 +37,7 @@ Think of it as a **birth certificate for your computer**:
 
 
 
-
+last updated 2025-9-15_
 
 MIT License
 
