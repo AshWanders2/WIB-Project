@@ -1,0 +1,10 @@
+# build artifacts
+*.zip
+*.enc
+*.sha256
+# local baselines
+Baseline/
+# temp
+*.tmp
+*.log
+.DS_Store
