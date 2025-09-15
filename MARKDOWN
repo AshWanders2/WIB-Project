@@ -1,0 +1,42 @@
+# WIB Project – Windows Integrity Baseline
+
+[![PowerShell](https://img.shields.io/badge/PowerShell-5%2B-blue)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+
+**WIB (Windows Integrity Baseline)** is a simple, open tool that gives you a **day-one receipt of your Windows system**.  
+
+It captures certificates, drivers, services, autoruns, and boot security details so you can prove what your system looked like before compromise.  
+Think of it as a **birth certificate for your computer**:
+
+- Run once when your system is fresh.  
+- Save the baseline securely.  
+- Compare later to spot tampering or malware persistence.  
+
+---
+
+## Features
+- Capture root & intermediate certificates with SHA-256 hashes  
+- Inventory drivers, services, autoruns, and scheduled tasks  
+- Hash key registry hives for integrity checks  
+- Record TPM, Secure Boot, and BitLocker status  
+- Export baseline as JSON + ZIP archive  
+- Optional encrypted archive + cloud upload  
+- Planned: “diff mode” for instant today-vs-baseline comparison  
+
+---
+
+##  Quick Start
+1. Clone this repo or download the script.  
+2. Open **PowerShell as Administrator**.  
+3. Run:  
+   ```powershell
+   Set-ExecutionPolicy Bypass -Scope Process -Force
+   .\scripts\baseline.ps1
+
+
+
+
+
+MIT License
+
+Copyright (c) 2025 Verity
