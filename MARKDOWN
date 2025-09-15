@@ -1,6 +1,6 @@
 # WIB Project – Windows Integrity Baseline
 
-Design Notes
+
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
